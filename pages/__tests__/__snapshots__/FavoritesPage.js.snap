@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FavoritesPage should render  1`] = `
+Object {
+  "component": <Layout>
+    <FelaComponent(div)>
+      <LabeledInput
+        label="Search for a city"
+        mb={0}
+        name="example"
+        onChange={[Function]}
+      />
+      <FelaComponent(Dropdown)
+        align="left"
+        onClose={[Function]}
+      >
+        <FelaComponent(DropdownLink)
+          onClick={[Function]}
+        >
+          A city from search results
+        </FelaComponent(DropdownLink)>
+      </FelaComponent(Dropdown)>
+    </FelaComponent(div)>
+    <Favorites
+      favorites={Array []}
+    />
+  </Layout>,
+  "styles": "
+
+",
+}
+`;
+
+exports[`FavoritesPage should render  2`] = `
+Object {
+  "component": <Layout>
+    <FelaComponent(div)>
+      <LabeledInput
+        label="Search for a city"
+        mb={0}
+        name="example"
+        onChange={[Function]}
+      />
+      <FelaComponent(Dropdown)
+        align="left"
+        onClose={[Function]}
+      >
+        <FelaComponent(DropdownLink)
+          onClick={[Function]}
+        >
+          A city from search results
+        </FelaComponent(DropdownLink)>
+      </FelaComponent(Dropdown)>
+    </FelaComponent(div)>
+    <Favorites
+      favorites={
+        Array [
+          Object {
+            "city": "london",
+            "id": 0,
+          },
+        ]
+      }
+    />
+  </Layout>,
+  "styles": "
+
+",
+}
+`;
