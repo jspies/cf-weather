@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ForecastDetail should render the forecast details 1`] = `
+Object {
+  "component": <ForecastLayout>
+    <FelaComponent(div)>
+      Austin
+    </FelaComponent(div)>
+    <Table
+      bordered={true}
+      empty={false}
+      fixedLayout={true}
+      loading={false}
+      renderTableToDom={true}
+      searching={false}
+      translations={
+        Object {
+          "error": "Looks like something went wrong... Please try again later.",
+          "loading": "Loading",
+          "noItems": "There are currently no records.",
+          "noItemsMatchingSearchTerm": "Hmm... We couldn't find any matching records",
+        }
+      }
+    >
+      <FelaComponent(TableHead)>
+        <TableRow
+          accent="none"
+          hover={false}
+        >
+          <TableCell
+            align="left"
+            hideOnMobile={false}
+            hover={false}
+            textEllipsis={false}
+          >
+            Day
+          </TableCell>
+          <TableCell
+            align="left"
+            hideOnMobile={false}
+            hover={false}
+            textEllipsis={false}
+          >
+            Description
+          </TableCell>
+          <TableCell
+            align="left"
+            hideOnMobile={false}
+            hover={false}
+            textEllipsis={false}
+          >
+            High/Low
+          </TableCell>
+        </TableRow>
+      </FelaComponent(TableHead)>
+      <TableBody>
+        <TableRow
+          accent="none"
+          hover={false}
+          key="0"
+        >
+          <TableCell
+            align="left"
+            hideOnMobile={false}
+            hover={false}
+            key="0"
+            textEllipsis={false}
+          >
+            <div>
+              <h3>
+                Wed Jan 30 2019
+              </h3>
+              <FelaComponent(img)
+                src="http://openweathermap.org/img/w/01n.png"
+              />
+            </div>
+          </TableCell>
+          <TableCell
+            align="left"
+            hideOnMobile={false}
+            hover={false}
+            key="1"
+            textEllipsis={false}
+          >
+            clear sky
+          </TableCell>
+          <TableCell
+            align="left"
+            hideOnMobile={false}
+            hover={false}
+            key="2"
+            textEllipsis={false}
+          >
+            23.14°/21.87°
+          </TableCell>
+        </TableRow>
+        <TableRow
+          accent="none"
+          hover={false}
+          key="1"
+        >
+          <TableCell
+            align="left"
+            hideOnMobile={false}
+            hover={false}
+            key="0"
+            textEllipsis={false}
+          >
+            <div>
+              <h3>
+                Thu Jan 31 2019
+              </h3>
+              <FelaComponent(img)
+                src="http://openweathermap.org/img/w/01n.png"
+              />
+            </div>
+          </TableCell>
+          <TableCell
+            align="left"
+            hideOnMobile={false}
+            hover={false}
+            key="1"
+            textEllipsis={false}
+          >
+            cloudy sky
+          </TableCell>
+          <TableCell
+            align="left"
+            hideOnMobile={false}
+            hover={false}
+            key="2"
+            textEllipsis={false}
+          >
+            23.14°/21.87°
+          </TableCell>
+        </TableRow>
+      </TableBody>
+    </Table>
+    <FelaComponent(div)>
+      <Link
+        href="/"
+      >
+        <a>
+          Back To Favorites
+        </a>
+      </Link>
+    </FelaComponent(div)>
+  </ForecastLayout>,
+  "styles": "
+
+",
+}
+`;

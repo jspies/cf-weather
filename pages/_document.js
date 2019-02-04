@@ -8,7 +8,7 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <title>Cloudlflare Weather App</title>
+          <title>Cloudflare Weather App</title>
           <meta charSet="utf-8" />
           <meta
             name="viewport"

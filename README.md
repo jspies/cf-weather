@@ -57,7 +57,7 @@ You will notice that When clicking on a city's card on the initial screen, the u
 
 This page should display the 5 day forecast for the city in question. Use the `getForecast` function to do this.
 You will notice that the response has information for every 3 hours for 5 days. Take the <b>first forecast</b> for each day and display its:
-* Temprature forecast
+* Temperature forecast
 * Icon indicating conditions at the time
 * Description of conditions at that time.
 
